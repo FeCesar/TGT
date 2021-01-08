@@ -10,8 +10,59 @@
 
     <!-- STYLES OF BULMA -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+
+    <!-- SCRIPT BUTTON MOBILE -->
+    <script src="./scripts/btn-mobile.js"></script>
 </head>
 <body>
-    
+
+    <!-- NAVBAR -->
+    <header class="container">
+        <nav class="navbar" role="navigation" aria-label="main navegation">
+            <div class="navbar-brand">
+                <a href="#" class="navbar-item">TGT - Together</a>
+
+                <!-- MENU MOBILE -->
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <!-- MENU DESKTOP -->
+            <div id="navMenu" class="navbar-menu">
+                <div class="navbar-start">
+                    <a href="#" class="navbar-item">Home</a>
+                    <a href="#" class="navbar-item">Quem Somos</a>
+                    <a href="#" class="navbar-item">Empresas Parceiras</a>
+
+                    <!-- MENU DROPDOWN -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Como Funciona</a>
+
+                        <div class="navbar-dropdown">
+                            <a href="#" class="navbar-item">Passo a Passo</a>
+                            <a href="#" class="navbar-item">Perguntas Frequentes</a>
+                        </div>
+                    </div>  
+                </div>
+
+                <!-- BUTTONS OF NAVBAR END -->
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="">
+                            <a class="button is-primary"><strong>Cadastar<strong></a>
+                            <a class="button is-light">Entrar</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+
+
 </body>
 </html>
