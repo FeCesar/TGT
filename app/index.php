@@ -68,7 +68,7 @@
     </header>
 
     <section class="hero background-first-hero is-fullheight-with-navbar">
-        <div class="hero-body">
+        <div class="container hero-body">
             <section class="section background-opacity border-radius">
                 <div class="container">
                     <h1 class="title color-grafite">Conectamos pessoas e empresas   </h1>
