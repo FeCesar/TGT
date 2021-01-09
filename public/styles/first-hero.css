@@ -1,0 +1,37 @@
+/* IMG OF FIRST HERO */
+.background-first-hero{
+    background-image: url('../images/background-first-hero.jpg');
+    background-attachment: fixed;
+    background-position: no-repeat;
+    background-size: 100%;
+}
+
+@media (min-width: 320px){
+    .background-first-hero{
+        background-size: 400%;
+    }
+}
+
+@media (min-width: 425px){
+    .background-first-hero{
+        background-size: 300%;
+    }
+}
+
+@media (min-width: 768px){
+    .background-first-hero{
+        background-size: 170%;
+    }
+}
+
+@media (min-width: 1024px){
+    .background-first-hero{
+        background-size: 130%;
+    }
+}
+
+@media (min-width: 1240px){
+    .background-first-hero{
+        background-size: 100%;
+    }
+}

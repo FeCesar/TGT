@@ -11,8 +11,14 @@
     <!-- STYLES OF BULMA -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
 
+    <!-- STYLES OF APP -->
+    <link rel="stylesheet" href="../public/styles/first-hero.css">
+    <link rel="stylesheet" href="../public/styles/backgrounds.css">
+    <link rel="stylesheet" href="../public/styles/colors.css">
+    <link rel="stylesheet" href="../public/styles/borders.css">
+
     <!-- SCRIPT BUTTON MOBILE -->
-    <script src="./scripts/btn-mobile.js"></script>
+    <script src="../scripts/btn-mobile.js"></script>
 </head>
 <body>
 
@@ -51,16 +57,28 @@
                 <!-- BUTTONS OF NAVBAR END -->
                 <div class="navbar-end">
                     <div class="navbar-item">
-                        <div class="">
+                        <div>
                             <a class="button is-primary"><strong>Cadastar<strong></a>
                             <a class="button is-light">Entrar</a>
                         </div>
                     </div>
                 </div>
-
             </div>
         </nav>
     </header>
+
+    <section class="hero background-first-hero is-fullheight-with-navbar">
+        <div class="hero-body">
+            <section class="section background-opacity border-radius">
+                <div class="container">
+                    <h1 class="title color-grafite">Conectamos pessoas e empresas   </h1>
+                    <h2 class="subtitle">
+                        De maneira simples, insira sua marca ou seu produto no meio online! Tenha disponível seus produtos para usuários interessados em um catálogo feito por você!
+                    </h2>
+                </div>
+            </section>
+        </div>
+    </section>
 
 
 
