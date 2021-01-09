@@ -9,13 +9,13 @@
     <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
 
     <!-- STYLES OF BULMA -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css" />
 
     <!-- STYLES OF APP -->
-    <link rel="stylesheet" href="../public/styles/first-hero.css">
-    <link rel="stylesheet" href="../public/styles/backgrounds.css">
-    <link rel="stylesheet" href="../public/styles/colors.css">
-    <link rel="stylesheet" href="../public/styles/borders.css">
+    <link rel="stylesheet" href="../public/styles/first-hero.css" />
+    <link rel="stylesheet" href="../public/styles/backgrounds.css" />
+    <link rel="stylesheet" href="../public/styles/colors.css" />
+    <link rel="stylesheet" href="../public/styles/borders.css" />
 
     <!-- SCRIPT BUTTON MOBILE -->
     <script src="../scripts/btn-mobile.js"></script>
@@ -58,7 +58,7 @@
                 <div class="navbar-end">
                     <div class="navbar-item">
                         <div>
-                            <a class="button is-primary"><strong>Cadastar<strong></a>
+                            <a class="button is-primary"><strong>Cadastar</strong></a>
                             <a class="button is-light">Entrar</a>
                         </div>
                     </div>
