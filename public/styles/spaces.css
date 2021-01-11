@@ -1,0 +1,34 @@
+.padding-right{
+    padding-right: 5%;
+}
+.padding-left{
+    padding-left: 5%;
+}
+.padding-top{
+    padding-top: 10%!important;
+}
+.padding-bottom{
+    padding-bottom: 10%;
+}
+
+.padding-standart{
+    padding: 3%;
+}
+
+
+.margin-right{
+    margin-right: 5%;
+}
+.margin-left{
+    margin-left: 5%;
+}
+.margin-top{
+    margin-top: 10%!important;
+}
+.margin-bottom{
+    margin-bottom: 5%;
+}
+
+.margin-standart{
+    margin: 3%;
+}
