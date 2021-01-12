@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="./public/styles/config.css" />
     <link rel="stylesheet" href="./public/styles/fonts.css" />
     <link rel="stylesheet" href="./public/styles/sizes.css" />
+    <link rel="stylesheet" href="./public/styles/filters.css" />
 
     <!-- SCRIPT MOBILE BUTTON -->
     <script src="./scripts/btn-mobile.js"></script>
@@ -29,7 +30,7 @@
     <header class="container">
         <nav class="navbar is-fixed-top padding-right padding-left" role="navigation" aria-label="main navegation">
             <div class="navbar-brand">
-                <a href="#" class="navbar-item">TGT - Together</a>
+                <a href="#homepage" class="navbar-item">TGT - Together</a>
 
                 <!-- MENU MOBILE -->
                 <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
@@ -45,7 +46,7 @@
                     <a href="#homepage" class="navbar-item">Home</a>
                     <a href="#catalogo" class="navbar-item">Catálogo</a>
                     <a href="#quemsomos" class="navbar-item">Quem Somos</a>
-                    <a href="#" class="navbar-item">Empresas Parceiras</a>
+                    <a href="#empresasparceiras" class="navbar-item">Empresas Parceiras</a>
 
                     <!-- MENU DROPDOWN -->
                     <div class="navbar-item has-dropdown is-hoverable">
@@ -160,6 +161,36 @@
                 </div>
             </div>
         </div>
+    </section>
+
+    <!-- EMPRESAS PARCEIRAS -->
+    <section class="hero is-fullheight flex-center" id="empresasparceiras">
+        <div class="columns">
+
+            <div class="column is-one-quarter">
+                <figure class="image-filter-opacity">
+                    <img src="./public/images/empresas/john-deere-logo.png" />
+                </figure>
+            </div>
+
+            <div class="column is-one-quarter">
+                <figure class="image-filter-opacity">
+                    <img src="./public/images/empresas/avenida.png" />
+                </figure>
+            </div>
+
+            <div class="column is-one-quarter">
+                <figure class="image-filter-opacity">
+                    <img src="./public/images/empresas/casa-di-conti.png" />
+                </figure>
+            </div>
+
+            <div class="column is-one-quarter">
+                <figure class="image-filter-opacity">
+                    <img src="./public/images/empresas/lilica-e-tigor.png" />
+                </figure>
+            </div>
+            
     </section>
 
 </body>
