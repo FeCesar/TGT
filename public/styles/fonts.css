@@ -1,3 +1,9 @@
 .text-light{
     font-weight: 200;
 }
+.text-line-height{
+   line-height: 1.7em;
+}
+.text-center{
+    text-align: center;
+}

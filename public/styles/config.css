@@ -3,6 +3,13 @@ html {
     scroll-behavior: smooth;
 }
 
+@media (min-width: 1024px){
+    html{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+}
+
 .flex-center{
     display: flex;
     align-items: center;

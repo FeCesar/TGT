@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="./public/styles/spaces.css" />
     <link rel="stylesheet" href="./public/styles/config.css" />
     <link rel="stylesheet" href="./public/styles/fonts.css" />
+    <link rel="stylesheet" href="./public/styles/sizes.css" />
 
     <!-- SCRIPT MOBILE BUTTON -->
     <script src="./scripts/btn-mobile.js"></script>
@@ -70,6 +71,7 @@
         </nav>
     </header>
 
+    <!-- HOMEPAGE -->
     <section class="hero is-fullheight" id="homepage">
         <div class="container hero-body">
             <section class="section">
@@ -83,8 +85,8 @@
         </div>
     </section>
 
+    <!-- PESQUISA DE EMPRESAS -->
     <section class="hero is-fullheight" id="catalogo">
-
             <div class="columns">
                 <div class="column is-two-fifths has-background-dark flex-center full-height padding-standart">
                     <section class="section">
@@ -130,7 +132,34 @@
 
                 </div>
             </div>
+    </section>
 
+    <!-- QUEM SOMOS -->
+    <section class="hero is-fullheight" id="quemsomos">
+        <div class="columns">
+            <div class="column flex-center full-height padding-standart">
+                
+                <header>
+                    <h1 class="title is-2 ">Quem Somos?</h1>
+                    <p class="subtitle is-3">Nossa breve história</p>
+                    <p class="text-line-height">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.</p>
+                    <p class="text-line-height">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim quis doloribus ex minus mollitia veritatis, eligendi nulla provident culpa aliquam sit quod repellat veniam aperiam ipsam soluta cumque corrupti inventore.</p>
+                </header>
+
+            </div>
+            <div class="column is-two-fifths has-background-dark flex-center full-height padding-standart">
+                <div class="padding-standart has-text-gray">
+                    <figure class="image is-210x210 margin-auto-right-left margin-top">
+                        <img src="public/images/igor-kadoka.png" alt="fundador-do-projeto" class="is-rounded ">
+                    </figure>
+                    <div class="margin-top">
+                        <h1 class="title is-4 text-center has-text-grey">Igor</h1>
+                        <h3 class="subtitle is-4 text-center has-text-grey">Idealizador e Fundador</h3>
+                        <p class="text-line-height text-center has-text-grey">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
 </body>
