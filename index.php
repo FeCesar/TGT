@@ -23,6 +23,8 @@
 
     <!-- SCRIPT MOBILE BUTTON -->
     <script src="./scripts/btn-mobile.js"></script>
+    <!-- SCRIPT MODAL BUTTON -->
+    <script src="./scripts/btn-modal.js"></script>
 </head>
 <body>
 
@@ -47,30 +49,111 @@
                     <a href="#catalogo" class="navbar-item">Catálogo</a>
                     <a href="#quemsomos" class="navbar-item">Quem Somos</a>
                     <a href="#empresasparceiras" class="navbar-item">Empresas Parceiras</a>
-
-                    <!-- MENU DROPDOWN -->
-                    <div class="navbar-item has-dropdown is-hoverable">
-                        <a class="navbar-link">Como Funciona</a>
-
-                        <div class="navbar-dropdown">
-                            <a href="#steps" class="navbar-item">Passo a Passo</a>
-                            <a href="#fac" class="navbar-item">Perguntas Frequentes</a>
-                        </div>
-                    </div>  
+                    <a href="#steps" class="navbar-item">Passo a Passo</a> 
                 </div>
 
                 <!-- BUTTONS OF NAVBAR END -->
                 <div class="navbar-end">
                     <div class="navbar-item">
                         <div>
-                            <a class="button is-primary"><strong>Cadastar</strong></a>
-                            <a class="button is-light">Entrar</a>
+                            <a class="button is-primary" onClick="openModal('modalRegistro')"><strong>Cadastar</strong></a>
+                            <a class="button is-light" onClick="openModal('modalLogar')">Entrar</a>
                         </div>
                     </div>
                 </div>
             </div>
         </nav>
     </header>
+
+    <!-- MODAL LOGIN -->
+    <div class="modal" id="modalLogar">
+        <div class="modal-background"></div>
+            <div class="card">
+                <header class="modal-card-head">
+                    <p class="modal-card-title">Entrar</p>
+                </header>
+
+                <section class="modal-card padding-standart">
+                    <form method="post" action="#">
+                        <div class="field">
+                            <p class="control has-icons-left has-icons-right">
+                                <input class="input" type="email" name="email" placeholder="Email">
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-envelope"></i>
+                                </span>
+                            </p>
+                        </div>
+                        
+                        <div class="field">
+                            <p class="control has-icons-left">
+                                <input class="input" type="password" name="pass" placeholder="Password">
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-lock"></i>
+                                </span>
+                            </p>
+                        </div>
+
+                        <div class="field">
+                            <p class="control">
+                                <input type="submit" class="button is-success" value="Entrar">
+                            </p>
+                        </div>                        
+                    </form>
+                </section>
+            </div>
+        <button class="modal-close is-large" aria-label="close" onClick="closeModal('modalLogar')"></button>
+    </div>
+
+    <!-- MODAL REGISTRAR -->
+    <div class="modal" id="modalRegistro">
+        <div class="modal-background"></div>
+        <div class="modal-card">
+                <header class="modal-card-head">
+                    <p class="modal-card-title">Cadastrar-se</p>
+                </header>
+
+                <section class="modal-card-body">
+                    <form method="post" action="#">
+                        
+                        <div class="padding-standart">
+                            <label class="label" for="nome">Nome completo</label>
+                            <input type="text" class="input" name="nome" placeholder="Ex.: Felipe Cesar" />
+                        </div>
+
+                        <div class="padding-standart">
+                            <label class="label" for="email">E-mail</label>
+                            <input type="email" class="input" name="email" placeholder="Ex.: seunome@gmail.com" />
+                        </div>
+
+                        <div class="padding-standart">
+                            <label class="label" for="telefone">Numero do Celular</label>
+                            <input type="text" class="input" name="telefone" placeholder="Ex.: 18996220090" />
+                        </div>
+
+                        <div class="padding-standart">
+                            <label class="label" for="cpf">CPF</label>
+                            <input type="text" class="input" name="cpf" placeholder="Ex.: 47795071899" />
+                        </div>
+
+                        <div class="padding-standart">
+                            <label class="label" for="nome-empresa">Nome da Empresa</label>
+                            <input type="text" class="input" name="nome-empresa" placeholder="Ex.: Tem Tudo Movéis" />
+                        </div>
+
+                        <div class="padding-standart">
+                            <label class="label" for="seguimento">Seguimento da Empresa</label>
+                            <input type="text" class="input" name="seguimento" placeholder="Ex.: Movéis e Papeis de Parede" />
+                        </div>
+
+                        <div class="padding-standart">
+                            <input type="submit" class="input button is-success" value="Cadastrar">
+                        </div>
+
+                    </form>
+                </section>
+            </div>
+        <button class="modal-close is-large" aria-label="close" onClick="closeModal('modalRegistro')"></button>
+    </div>
 
     <!-- HOMEPAGE -->
     <section class="hero is-fullheight" id="homepage">
@@ -191,7 +274,7 @@
             </div>
     </section>
 
-    <!-- COMO FUNCIONA -->
+    <!-- PASSO A PASSO -->
     <section class="hero is-fullheight" id="steps">
         <div class="columns">
 

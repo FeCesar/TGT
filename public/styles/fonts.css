@@ -1,6 +1,9 @@
 .text-light{
     font-weight: 200;
 }
+.text-bold{
+    font-weight: 400;
+}
 .text-line-height{
    line-height: 1.7em;
 }

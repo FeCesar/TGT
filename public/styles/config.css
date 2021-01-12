@@ -23,3 +23,7 @@ html {
 .half-height{
     height: 50vh;
 }
+
+.cursor-pointer{
+    cursor: pointer;
+}
