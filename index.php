@@ -53,8 +53,8 @@
                         <a class="navbar-link">Como Funciona</a>
 
                         <div class="navbar-dropdown">
-                            <a href="#" class="navbar-item">Passo a Passo</a>
-                            <a href="#" class="navbar-item">Perguntas Frequentes</a>
+                            <a href="#steps" class="navbar-item">Passo a Passo</a>
+                            <a href="#fac" class="navbar-item">Perguntas Frequentes</a>
                         </div>
                     </div>  
                 </div>
@@ -166,7 +166,6 @@
     <!-- EMPRESAS PARCEIRAS -->
     <section class="hero is-fullheight flex-center" id="empresasparceiras">
         <div class="columns">
-
             <div class="column is-one-quarter">
                 <figure class="image-filter-opacity">
                     <img src="./public/images/empresas/john-deere-logo.png" />
@@ -190,7 +189,21 @@
                     <img src="./public/images/empresas/lilica-e-tigor.png" />
                 </figure>
             </div>
-            
+    </section>
+
+    <!-- COMO FUNCIONA -->
+    <section class="hero is-fullheight" id="steps">
+        <div class="columns">
+
+            <div class="column is-two-fifths has-background-dark flex-center full-height padding-standart">
+                <h1 class="title is-3 has-text-grey border-right-low text-center">Passo a Passo</h1>
+                <p class="subtitle is-5 text-center">Como se cadastrar na plataforma</p>  
+            </div>
+
+            <div class="column flex-center full-height padding-standart">
+                <iframe class="container half-height" src="https://www.youtube.com/embed/SCSAExGFK1E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div> 
     </section>
 
 </body>
